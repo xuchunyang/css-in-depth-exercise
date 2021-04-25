@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+        h1 {
+            font-family: serif;
+        }
+
+        #page-title {
+            font-family: sans-serif;
+        }
+
+        .title {
+            font-family: monospace;
+        }
+
+        #main-nav {
+            /* padding-left: 0; */
+        }
+
+        #main-nav li {
+            /* 默认是 list-item */
+            display: inline-block;
+        }
+    </style>
+  </head>
+  <body>
+    <header class="page-header">
+      <h1 id="page-title" class="title">Wombat coffee</h1>
+      <nav>
+        <ul id="main-nav" class="nav">
+          <li><a href="/">Home</a></li>
+          <li><a href="/coffee">Coffee</a></li>
+          <li><a href="/banana">Banana</a></li>
+          <li><a href="/apple" class="featured">Apple</a></li>
+        </ul>
+      </nav>
+    </header>
+  </body>
+</html>
